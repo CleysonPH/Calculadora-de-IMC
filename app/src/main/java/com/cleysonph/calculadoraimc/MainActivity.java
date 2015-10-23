@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtPeso;
     private EditText edtAltura;
     private TextView txtIMC;
-    private Button btnCalcular;
     private TextView txtFrase;
 
     @Override
