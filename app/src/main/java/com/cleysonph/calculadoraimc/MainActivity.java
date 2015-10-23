@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         edtPeso = (EditText) findViewById(R.id.edtPeso);
         edtAltura = (EditText) findViewById(R.id.edtAltura);
         txtIMC = (TextView) findViewById(R.id.txtIMC);
-        btnCalcular = (Button) findViewById(R.id.btnCalcular);
         txtFrase = (TextView) findViewById(R.id.txtFrase);
     }
 
