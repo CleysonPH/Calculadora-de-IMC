@@ -39,27 +39,34 @@ public class MainActivity extends AppCompatActivity {
         if (imc < 16){
             txtFrase.setText("Você está com Magreza grave");
             txtFrase.setTextColor(getResources().getColor(R.color.red));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp),null, null, null);
         } else if(imc < 17){
             txtFrase.setText("Você está com Magreza moderada");
             txtFrase.setTextColor(getResources().getColor(R.color.red));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp), null, null, null);
         } else if (imc < 18.5){
             txtFrase.setText("Você está com Magreza leve");
             txtFrase.setTextColor(getResources().getColor(R.color.yellow));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_warning_amber_24dp), null, null, null);
         } else if(imc < 25){
             txtFrase.setText("Você está Saudável");
             txtFrase.setTextColor(getResources().getColor(R.color.green));
         } else if(imc < 30){
             txtFrase.setText("Você está com Sobrepeso");
             txtFrase.setTextColor(getResources().getColor(R.color.yellow));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_warning_amber_24dp), null, null, null);
         } else if(imc < 35){
             txtFrase.setText("Você está com Obesidade Grau I");
             txtFrase.setTextColor(getResources().getColor(R.color.red));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp), null, null, null);
         } else if(imc < 40){
             txtFrase.setText("Você está com Obesidade Grau II (Severa)");
             txtFrase.setTextColor(getResources().getColor(R.color.red));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp), null, null, null);
         } else {
             txtFrase.setText("Você está com Obesidade Grau III (Mórbida)");
             txtFrase.setTextColor(getResources().getColor(R.color.red));
+            txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp), null, null, null);
         }
     }
 }
