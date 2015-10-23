@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
             txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_error_red_24dp), null, null, null);
         } else if (imc < 18.5){
             txtFrase.setText("Você está com Magreza leve");
-            txtFrase.setTextColor(getResources().getColor(R.color.yellow));
+            txtFrase.setTextColor(getResources().getColor(R.color.orange));
             txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_warning_amber_24dp), null, null, null);
         } else if(imc < 25){
             txtFrase.setText("Você está Saudável");
             txtFrase.setTextColor(getResources().getColor(R.color.green));
         } else if(imc < 30){
             txtFrase.setText("Você está com Sobrepeso");
-            txtFrase.setTextColor(getResources().getColor(R.color.yellow));
+            txtFrase.setTextColor(getResources().getColor(R.color.orange));
             txtFrase.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.ic_warning_amber_24dp), null, null, null);
         } else if(imc < 35){
             txtFrase.setText("Você está com Obesidade Grau I");
