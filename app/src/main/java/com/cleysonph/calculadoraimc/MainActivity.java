@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         } else if(imc < 25){
             txtFrase.setText("Você está Saudável");
             txtFrase.setTextColor(getResources().getColor(R.color.green));
+            txtFrase.setCompoundDrawablesRelativeWithIntrinsicBounds(null, null, null, null);
         } else if(imc < 30){
             txtFrase.setText("Você está com Sobrepeso");
             txtFrase.setTextColor(getResources().getColor(R.color.orange));
